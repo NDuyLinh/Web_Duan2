@@ -1,0 +1,51 @@
+/**
+ * = Footers
+ */
+
+.footer{
+
+    .footer-info {
+        text-align: right;
+    }
+
+    .social-buttons{
+        a,
+        .btn{
+            margin-top: 5px;
+            margin-bottom: 5px;
+            padding: $padding-footer-sm $padding-footer;
+        }
+    }
+
+    .footer-brand{
+        font-size: $font-size-lg;
+        font-weight: $font-weight-bold;
+        
+        img.common {
+            height: 40px;
+        }
+    
+        img {
+            height: 40px;
+            width: 40px;
+        }
+        &:hover,
+        &:focus{
+            color: $black;
+        }
+    }
+    .footer-language-link{
+        font-size:$font-size-sm;
+        i{
+            font-size: 0.75rem;
+        }
+    }
+    .copyright{
+        font-size: $font-size-sm;
+    }
+
+    .pull-center{
+        display: inline-block;
+        float: none;
+    }
+}

@@ -1,0 +1,1 @@
+export const LOGIN_FAILED="We cannot find an account with that email address"
